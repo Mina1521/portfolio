@@ -1,5 +1,4 @@
 
-
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
@@ -8,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      window.gtag("config", 'G-YPPHW2E6PJ', {
+      window.gtag("config", 'G-4476H1QDD1', {
         page_path: url,
       });
     };
